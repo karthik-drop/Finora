@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- The window theme only covers the frame before Compose draws; Compose owns every colour after. -->
+    <style name="Theme.Finora" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">@color/finora_background</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
+</resources>
